@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1"
+  },
+  "name": "programacion_web_css",
+  "version": "1.0.0",
+  "description": "Proyecto universidad",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://KennedyDT@bitbucket.org/kennedydt/programacion_web_css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/kennedydt/programacion_web_css/issues"
+  },
+  "homepage": "https://bitbucket.org/kennedydt/programacion_web_css#readme"
+}

@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: #ff812d;
+    color: black;
+    margin-top: 50px;
+}
+
+footer {
+
+    padding: 10px 10px 0 10px;
+    background-color: #bbbbbb;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.card-prod {
+    flex: 1 150px;
+    padding: 2px 8px 20px;
+      
+}
+
+.card-footer{
+    flex:1;
+    align-items: normal;
+    margin-left: 100px;
+    
+}
+
+.navbar {
+    margin-left: 0px;
+}
+
+.breadcrumb{
+    background-color: rgb(204, 204, 204);
+    margin-right: 700px;
+}
+
+.bg{
+    color:#fc1a1a;
+}
