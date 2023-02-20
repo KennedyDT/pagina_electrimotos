@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: #ff812d;
+    background-color: #b3b3b3;
     color: black;
     margin-top: 50px;
 }
@@ -7,14 +7,14 @@
 footer {
 
     padding: 10px 10px 0 10px;
-    background-color: #bbbbbb;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    background-color: #2c96d4;
+    margin-inline: 0px;
+    margin-top: 50px;
 }
 
 .card-prod {
     flex: 1 150px;
-    padding: 2px 8px 20px;
+    padding: 0px 8px 20px;
       
 }
 
@@ -26,14 +26,13 @@ footer {
 }
 
 .navbar {
-    margin-left: 0px;
-}
+    background-color: rgb(97, 96, 96);  
+}   
 
 .breadcrumb{
     background-color: rgb(204, 204, 204);
     margin-right: 700px;
 }
 
-.bg{
-    color:#fc1a1a;
-}
+
+
