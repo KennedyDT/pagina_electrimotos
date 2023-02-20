@@ -3,36 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Programacion web</title>
+    <title>Electrimotos</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="web_css.css" rel="stylesheet">
-    
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
   </head>
 
-  <!-- esto es un branch-->
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar fixed-top">
-      <a class="navbar-brand" href="#"> Pagina de prueba </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"> Electrimotos </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
-            <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793L7.646.146zM1 7v3h14V7H1zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2h14zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
-          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+          <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
+        </svg>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active"><a class="nav-link" href="#">Home </a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Home 2 </a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Home 3 </a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Home 4 </a></li>
-   
+          <li class="nav-item"><a class="nav-link" href="./about.html">Quienes somos </a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto </a></li>
+          <li class="nav-item"><a class="nav-link" href="./items.html">Productos </a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Historial clinico </a></li>
         </ul>
       </div>
     </nav>
 
     <div class="jumbotron">
-        <h1>Prueba jumbotron</h1>  
+        <h1>Electrimotos</h1>  
     </div>
 
     <div class="container">
@@ -43,42 +42,73 @@
         </ol>
       </nav>
 
+    <!--<div class="column">
+        <div class="row">
+          <h4> Exploradoras LED</h4>
+          <p>Un hotel spa es un tipo de alojamiento que cuenta entre sus instalaciones con servicios de tratamiento de salud con agua. Esto se traduce en hoteles con servicios con piscinas especiales y climatizadas, especiales para el relax en familia o con la pareja. Dentro de ellos también se pueden considerar los hoteles balneario, o los hoteles relax. Una gran opción para conocer este tipo de hoteles es el Catalonia Atenas, un hotel situado cerca de la Sagrada Familia de Barcelona donde podrás relajar cuerpo y mente.</p>
+        </div>
+        <div class="row">
+          <h4>Lujos</h4>
+          <p>Son tipos de hoteles caracterizados por su singularidad en cuanto a diseño, localización o servicio especial. Cada vez son más demandados y normalmente suelen ser hoteles situados en edificios monumentales y con un carácter de diseño muy marcado.</p>
+        </div>
+        <div class="row">
+          <h4> Hoteles de lujo</h4>
+          <p>Es el tipo de hotel con mayor categoría posible. También suelen contar con las máximas estrellas, cinco estrellas, y cuentan entre sus instalaciones con servicios de lujo como piscinas individuales, jacuzzi, o servicios integrados de actividades. Son los mejores hoteles en cuanto a calidad y suelen estar localizados en lugares privilegiados dentro de cada destino.</p>
+        </div>
+
+      </div> -->
+      
+    
+    
       <div class="jumbotron">
-        <h2>card</h2>
+        <h2>Categorias</h2>
       </div>
 
       <div class="d-flex flex-wrap">
-        <div class="card bg-secondary bg-gradient text-white mb-3 card-prod d-flex flex-column justify-content-between">
-          <h4 class="card-title">card 1.</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum, nulla sit amet mollis lobortis, leo est pulvinar mauris, quis molestie leo leo at velit. Sed rutrum vitae turpis nec convallis. Duis iaculis lorem eget metus rutrum, non dignissim nulla gravida. Nam cursus at arcu vehicula dapibus </p>
+        <div class="card bg-secondary bg-gradient text-white mb-3 card-prod d-flex flex-column justify-content-between" style="width: 18rem;">
+          
+          <div class="card-body">
+            
+            <h4 class="card-title">Iluminacion.</h6>
+            <p class="card-text">Las exploradoras LED y bombillos LED son una alternativa eficientes y popular para los motociclistas que buscan una iluminación adicional en la carretera o para mejorar la visibilidad de su moto. </p>
+          </div>
+
           <div>
             <button class="btn btn-primary btn-lg">Catalogo </button>
           </div>         
         </div>
 
         <div class="card bg-secondary bg-gradient text-white mb-3 card-prod d-flex flex-column justify-content-between">
-          <h4 class="card-title">card 2</h4>
-          <p class="card-text"> Phasellus lorem ante, molestie eget elit eu, ornare finibus tellus. In ullamcorper metus lorem, vitae posuere ligula vulputate quis. Mauris pretium nec magna eu eleifend. Duis ultricies in lorem sit amet consequat. Suspendisse eu eleifend leo, ac ultrices odio. Vestibulum euismod eleifend erat, sit amet consectetur purus mattis vitae. Aenean vitae vehicula arcu. In hac habitasse platea dictumst.</p>
+          <h4 class="card-title">Seguridad</h4>
+          <p class="card-text">Un GPS antirobo o alarmas de seguridad son dispositivos que se utiliza para monitorear y proteger un vehículo o una motocicleta de los riesgos de robo.</p>
           <div>
             <button class="btn btn-primary btn-lg" >Catalogo </button>
           </div>         
         </div>
 
         <div class="card bg-secondary bg-gradient text-white mb-3 card-prod d-flex flex-column justify-content-between">
-          <h4 class="card-title">card 3</h4>
-          <p class="card-text"> Suspendisse ultricies commodo sem, nec tincidunt velit elementum id. Praesent mollis sit amet metus tincidunt convallis. Sed ac ipsum vel sem pharetra vehicula vitae in sapien. Nunc blandit aliquam risus, ac tristique quam pharetra vel. Sed ac mollis dolor.</p>
+          <h4 class="card-title">Servicios de mantenimiento</h4>
+          <p class="card-text"></p>
           <div>
             <button class="btn btn-primary btn-lg">Ordenar </button>
           </div>         
         </div>
         
         <div class="card bg-secondary bg-gradient text-white mb-3 card-prod d-flex flex-column justify-content-between">
-          <h4 class="card-title">card 4</h4>
-          <p class="card-text"> Aliquam erat volutpat. Fusce a tristique quam, eget tincidunt arcu. Ut maximus, lectus vitae vulputate auctor, libero odio eleifend mauris, sit amet maximus odio elit ac ex. Vivamus dictum vel metus a aliquam.</p>
+          <h4 class="card-title">Personalizacion e innovacion</h4>
+          <p class="card-text"></p>
           <div>
             <button class="btn btn-primary btn-lg">Ordenar </button>
           </div>         
         </div>
+
+        <!--<div class="card-prod d-flex flex-column justify-content-between">
+          <h4>Servicio de mantenimiento</h4>
+          <p></p>
+          <div>
+            <button class="btn btn-primary btn-lg">Ordenar </button>
+          </div>         
+        </div> -->
 
       </div>
     </div>
@@ -91,20 +121,23 @@
           <h3>CONTACTANOS</h3>
           <address>
             <p>Manizales, Caldas, Colombia</p>
-            
+            <p>+57 310 861 7258</p>
+            <p>electrimotos.manizales@gmail.com</p>
           </address>
 
         </div>
         <div class="card-footer">
           <address>
             <h3>INFORMACION</h3>
-            
+            <p>Quienes somos</p>
+            <p>Preguntas frecuentes</p>
+            <p>Contacto</p>
           </address>
         </div>
 
         <div class="card-footer">
           <h3>SOBRE NOSOTROS</h3>
-          
+          <p>Nuestra historia</p>
           
           
         </div>
