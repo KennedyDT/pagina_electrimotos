@@ -1,0 +1,30 @@
+{
+  "name": "clase-1",
+  "version": "1.0.0",
+  "description": "Mi primer proyectos de Node.js",
+  "main": "index.html\u001b[A\u001b[B",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://KennedyDT@bitbucket.org/kennedydt/clase-1.git"
+  },
+  "author": "Kennedy Duque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/kennedydt/clase-1/issues"
+  },
+  "homepage": "https://bitbucket.org/kennedydt/clase-1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "open-iconic": "^1.1.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  }
+}
